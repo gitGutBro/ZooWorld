@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 216a6b2a418c28745b753761d046cce6, type: 3}
+  m_Name: Crab
+  m_EditorClassIdentifier: 
+  _id: crab
+  _prefab: {fileID: 4453357859379164798, guid: cf0d730fc441f4e46a0422e71a5bceb6, type: 3}
+  _role: {fileID: 11400000, guid: 732192a930c1a6d4f8604c86e54a5d64, type: 2}
+  _movement: {fileID: 11400000, guid: d554b19db5b21ec40bc618574e870fbb, type: 2}

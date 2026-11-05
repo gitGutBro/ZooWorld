@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9f34ce959fd0ee4b99bc90daf147333, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  _spawn:
+    _minIntervalSeconds: 1
+    _maxIntervalSeconds: 2
+    _edgePadding: 1.5
+    _heightOffset: 0.5
+    _entries:
+    - _animal: {fileID: 11400000, guid: 27417792fb0a9cb4f998b622b013683c, type: 2}
+      _weight: 2
+    - _animal: {fileID: 11400000, guid: 9a8da69eb36efe34782b007ee32ad064, type: 2}
+      _weight: 2
+    - _animal: {fileID: 11400000, guid: 059c6a9ed6979bd4c806f6c95a14089a, type: 2}
+      _weight: 2
+    - _animal: {fileID: 11400000, guid: d5f12942770f90f46bbeb3fd146c9110, type: 2}
+      _weight: 1
+    - _animal: {fileID: 11400000, guid: 24059812f75f95a4e9110a455c14da70, type: 2}
+      _weight: 1
+    - _animal: {fileID: 11400000, guid: 98c26216be4bc9240aa976ba882fc738, type: 2}
+      _weight: 1
+  _terrain: {fileID: 11400000, guid: 7f5b851cf47c7dc46ba032728c6aea78, type: 2}
+  _obstacles: {fileID: 11400000, guid: 071ba787b711e8f4ebd070f1a981ba9a, type: 2}
+  _countedRoles:
+  - {fileID: 11400000, guid: 810bb00b10f62cc4fab85f48a7c809f4, type: 2}
+  - {fileID: 11400000, guid: 732192a930c1a6d4f8604c86e54a5d64, type: 2}
+  _bounce:
+    _minSpeedChange: 2
+    _speedChangePerClosingSpeed: 0.6
+    _maxSpeedChange: 6
+    _lift: 0.25
+    _recoverySeconds: 0.3
+  _bounceEffectPrefab: {fileID: 3863948974137911348, guid: 28afde31d686b2345ae3e59e09bcb9b0, type: 3}
+  _tastyLabelDurationSeconds: 1.5

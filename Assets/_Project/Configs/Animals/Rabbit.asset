@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 216a6b2a418c28745b753761d046cce6, type: 3}
+  m_Name: Rabbit
+  m_EditorClassIdentifier: 
+  _id: rabbit
+  _prefab: {fileID: 2876374315316812492, guid: 59ecacb2da759274abb492df34e15238, type: 3}
+  _role: {fileID: 11400000, guid: 810bb00b10f62cc4fab85f48a7c809f4, type: 2}
+  _movement: {fileID: 11400000, guid: 16ab3e82ea17f0347b8f9b3d86a1f57f, type: 2}

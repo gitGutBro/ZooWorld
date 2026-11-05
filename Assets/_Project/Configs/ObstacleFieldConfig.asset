@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7284f2ffda87e664a8a25cd3a778eaad, type: 3}
+  m_Name: ObstacleFieldConfig
+  m_EditorClassIdentifier: 
+  _minCount: 8
+  _maxCount: 12
+  _spacing: 1.8
+  _edgePadding: 1
+  _scaleRange: {x: 0.85, y: 1.2}
+  _sinkDepth: 0.08
+  _entries:
+  - _prefab: {fileID: 3843504988820547611, guid: 85dc68c79e480c24c97ce9d40483327a, type: 3}
+    _weight: 3
+  - _prefab: {fileID: 6931540825057137366, guid: d965a8c4da0d43a45bd57de75cdbdd01, type: 3}
+    _weight: 3
+  - _prefab: {fileID: 4344178647816315426, guid: 2be641e89aceed24ca0eec9c4ff4efea, type: 3}
+    _weight: 2
+  - _prefab: {fileID: 3846914940887883480, guid: a1b6e46219c6cb148af7730f452a2184, type: 3}
+    _weight: 2
+  - _prefab: {fileID: 3143488315209606990, guid: a4aed80359cf4644d914840315cdb367, type: 3}
+    _weight: 2
+  - _prefab: {fileID: 6526109113322442651, guid: 970fc8874a7b6d2498a1c83e025f9035, type: 3}
+    _weight: 1.5
